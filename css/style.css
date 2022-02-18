@@ -61,6 +61,12 @@ input[type=text], select {
       height: 666px;
   }
 
+.error-msg{
+    margin-top: 20px;
+    color: tomato;
+    font-weight: bold;
+    display: none;
+}
 
 /* X-Small devices (portrait phones, less than 576px) */
   @media (max-width: 575.98px) { 

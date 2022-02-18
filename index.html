@@ -22,44 +22,55 @@
     </head>
 
     <main>
-        <div class=" ">
-            <div class="row gx-5 gy-4">
+        <div class="row gx-5 gy-4">
+            <div class="col-12 col-md-12 col-lg-6 col-sm-12">
+                <div class="img-style">
+                    <img src="img/expenses.jpg" class="img-fluid" alt="Monthly Expenses">
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6 col-sm-12 bg-success p-5 fonts">
+                <div class=" mb-4">
+                    <h3>Income</h3>
+                </div>
+                <div class="">
+                    <span class="label-design">Income </span><input type="text" name="" id="myIncome">
+                </div>
+                <div class="monthly-exp">
+                    <h3>Expenses</h3>
+                </div>
+                <div class="">
+                    <span class="label-design">Food: </span><input class="mb-2" type="text" name="" id="exp1"> </br>
+                    <span class="label-design">Rent: </span><input class="mb-2" type="text" name="" id="exp2"> </br>
+                    <span class="label-design">Clothes: </span><input type="text" name="" id="exp3">
+                </div>
+                <button class="btn-style" id="calculate">Calculate</button>
+                <div class="total-amount">
+                    <h2>Total Monthly Expenses: <span id="totalExpenses"></span></h2>
+                    <h2>Balance: <span id="balance"></span></h2>
+                </div>
+                <div class="savings-style">
+                    <span>Save</span>
+                    <span><input type="text" name="" id="saveAmount"></span>
+                    <span>%</span>
+                    <span> <button class="btn-style-save" id="save">Save</button> </span>
+                </div>
+                <div class="">
+                    <h2>Saving Amount: <span id="savingAmount"></span></h2>
+                    <h2>Remaining Balance: <span id="remainingBal"></span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 col-sm-12"></div>
+
                 <div class="col-12 col-md-12 col-lg-6 col-sm-12">
-                    <div class="img-style">
-                        <img src="img/expenses.jpg" class="img-fluid" alt="Monthly Expenses">
-                    </div>
+                    <p class="error-msg" id="string-check"> Please Do not enter a string or Negative Number!! ❌</p>
+                    <p class="error-msg" id="empty-income"> Please Fill The Input Fields Before Calculate ❌</p>
+                    <p class="error-msg" id="empty-savings"> Please Enter an Number on saving field!! ❌</p>
                 </div>
-                <div class="col-12 col-md-12 col-lg-6 col-sm-12 bg-success p-5 fonts">
-                    <div class=" mb-4">
-                        <h3>Income</h3>
-                    </div>
-                    <div class="">
-                        <span class="label-design">Income </span><input type="text" name="" id="myIncome">
-                    </div>
-                    <div class="monthly-exp">
-                        <h3>Expenses</h3>
-                    </div>
-                    <div class="">
-                        <span class="label-design">Food: </span><input class="mb-2" type="text" name="" id="exp1"> </br>
-                        <span class="label-design">Rent: </span><input class="mb-2" type="text" name="" id="exp2"> </br>
-                        <span class="label-design">Income: </span><input type="text" name="" id="exp3">
-                    </div>
-                    <button class="btn-style" id="calculate">Calculate</button>
-                    <div class="total-amount">
-                        <h2>Total Monthly Expenses: <span id="totalExpenses"></span></h2>
-                        <h2>Balance: <span id="balance"></span></h2>
-                    </div>
-                    <div class="savings-style">
-                        <span>Save</span>
-                        <span><input type="text" name="" id="saveAmount"></span>
-                        <span>%</span>
-                        <span> <button class="btn-style-save" id="save">Save</button> </span>
-                    </div>
-                    <div class="">
-                        <h2>Saving Amount: <span id="savingAmount"></span></h2>
-                        <h2>Remaining Balance: <span id="remainingBal"></span></h2>
-                    </div>
-                </div>
+
             </div>
         </div>
     </main>
