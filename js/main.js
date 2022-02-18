@@ -14,9 +14,6 @@ document.getElementById('calculate').addEventListener('click', function () {
     const balanceValue = totalBalanceValue - totalExp;
     balanceText.innerText = balanceValue;
 
-
-
-
     document.getElementById('save').addEventListener('click', function () {
 
         const savePersent = getInputValue('saveAmount');
@@ -35,10 +32,7 @@ document.getElementById('calculate').addEventListener('click', function () {
 
     })
 
-
-
 });
-
 
 
 function getInputValue(inputValue) {

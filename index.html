@@ -16,44 +16,44 @@
 <body class="container">
 
     <head>
-        <div class="main-title mt-5">
-            <h2>Money Master </h2>
+        <div class="main-title text-center mt-5">
+            <h2>Monthly Expenses 2022 </h2>
         </div>
     </head>
 
     <main>
         <div class=" ">
-            <div class="row gx-5">
-                <div class="col-12 col-md-6 col-sm-12">
-                    <div>
+            <div class="row gx-5 gy-4">
+                <div class="col-12 col-md-12 col-lg-6 col-sm-12">
+                    <div class="img-style">
                         <img src="img/expenses.jpg" class="img-fluid" alt="Monthly Expenses">
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-sm-12 bg-success p-5 fonts">
-                    <div class="text-center mb-5">
-                        <h3>Monthly Income</h3>
+                <div class="col-12 col-md-12 col-lg-6 col-sm-12 bg-success p-5 fonts">
+                    <div class=" mb-4">
+                        <h3>Income</h3>
                     </div>
                     <div class="">
-                        <input type="text" name="" id="myIncome">
+                        <span class="label-design">Income </span><input type="text" name="" id="myIncome">
                     </div>
                     <div class="monthly-exp">
-                        <h3>Monthly Expenses</h3>
+                        <h3>Expenses</h3>
                     </div>
                     <div class="">
-                        <input class="mb-2" type="text" name="" id="exp1"> </br>
-                        <input class="mb-2" type=" text" name="" id="exp2"> </br>
-                        <input type="text" name="" id="exp3">
+                        <span class="label-design">Food: </span><input class="mb-2" type="text" name="" id="exp1"> </br>
+                        <span class="label-design">Rent: </span><input class="mb-2" type="text" name="" id="exp2"> </br>
+                        <span class="label-design">Income: </span><input type="text" name="" id="exp3">
                     </div>
-                    <button type="button" class="btn btn-primary btn-lg mt-3" id="calculate">Calculate</button>
+                    <button class="btn-style" id="calculate">Calculate</button>
                     <div class="total-amount">
                         <h2>Total Monthly Expenses: <span id="totalExpenses"></span></h2>
                         <h2>Balance: <span id="balance"></span></h2>
                     </div>
-                    <div class="">
+                    <div class="savings-style">
                         <span>Save</span>
-                        <input type="text" name="" id="saveAmount">
+                        <span><input type="text" name="" id="saveAmount"></span>
                         <span>%</span>
-                        <span> <button type="button" class="btn btn-primary btn-lg" id="save">Save</button> </span>
+                        <span> <button class="btn-style-save" id="save">Save</button> </span>
                     </div>
                     <div class="">
                         <h2>Saving Amount: <span id="savingAmount"></span></h2>
