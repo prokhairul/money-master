@@ -1,3 +1,4 @@
+/* Gootle Fonts Link */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
 
 
@@ -19,6 +20,7 @@
     margin-bottom: 20px;
 }
 
+/* Button Styling  */
 .btn-style{
     background-color: #e84a5f;
     color: white;
@@ -41,6 +43,8 @@
     border-radius: 5px;
 }
 
+/* Input Area Design  */
+
 input[type=text], select {
     width: 50%;
     border-radius: 5px;
@@ -57,16 +61,20 @@ input[type=text], select {
       width: 50%;
   }
 
+  /* Main Image Styles  */
   .img-style img{
       height: 666px;
   }
 
+  /* Style For error Message  */
 .error-msg{
     margin-top: 20px;
     color: tomato;
     font-weight: bold;
     display: none;
 }
+
+
 
 /* X-Small devices (portrait phones, less than 576px) */
   @media (max-width: 575.98px) { 
